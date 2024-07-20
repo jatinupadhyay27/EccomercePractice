@@ -1,0 +1,19 @@
+/* src/components/Layout.css */
+
+.layout {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 200px;
+  flex-grow: 1;
+  transition: all 0.2s ease-in-out;
+}
+
+.sidebar.collapsed + .main-content {
+  margin-left: 60px;
+}
+
+.content {
+  padding: 20px;
+}
