@@ -12,6 +12,7 @@ function AppRoutes() {
     <BrowserRouter >
     <Routes>
         <Route path="/" element={<Home />}/>
+        <Route path='/Home' element={<Home/>}/>
         <Route path="/Mens" element={<Mens />}/>
         <Route path='/Womens' element={<Womens/>}/>
         <Route path='/Child' element={<Child/>}/>
