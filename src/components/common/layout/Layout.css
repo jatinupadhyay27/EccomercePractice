@@ -5,6 +5,7 @@
 }
 
 .main-content {
+  padding: 20px;
   margin-left: 200px;
   flex-grow: 1;
   transition: all 0.2s ease-in-out;
@@ -14,6 +15,3 @@
   margin-left: 60px;
 }
 
-.content {
-  padding: 20px;
-}
