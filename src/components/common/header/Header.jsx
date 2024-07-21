@@ -2,6 +2,7 @@ import React from 'react'
 import PersonPinIcon from '@mui/icons-material/PersonPin';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import { Button } from '@mui/material';
+import { Link } from 'react-router-dom';
 function Header() {
   
   return (
@@ -38,16 +39,16 @@ function Header() {
     <div className="collapse navbar-collapse" id="navbarNav">
       <div className="navbar-nav mx-auto nav-header">
         <div className="nav-item mx-4">
-          Men
+         <Link to="/Mens" style={{textDecoration:"none", color:"#7693bf"}}> Men</Link>
         </div>
         <div className="nav-item mx-4">
-          Woman
+        <Link to="/Womens" style={{textDecoration:"none", color:"#7693bf"}}>Woman </Link>
         </div>
         <div className="nav-item mx-4">
-         Children
+        <Link to="/Child" style={{textDecoration:"none", color:"#7693bf"}}> Children </Link>
         </div>
         <div className="nav-item mx-4 ">
-          Home & Living
+        <Link to="/Livings" style={{textDecoration:"none", color:"#7693bf"}}>Home & Living </Link>
         </div>
       </div>
     </div>
