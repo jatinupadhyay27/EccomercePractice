@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../common/header/Header'
 
-function Home() {
+function Home( ) {
   return (
     <>
     <Header/>
