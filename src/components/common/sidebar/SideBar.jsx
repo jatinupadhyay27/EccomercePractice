@@ -22,6 +22,11 @@ const Sidebar = () => {
   const toggleVisibility = () => {
     setIsVisible(!isVisible);
   };
+ 
+
+
+  // Render the sidebar
+
 
   return (
     <>

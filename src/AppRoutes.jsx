@@ -9,7 +9,7 @@ import Child from './components/Pages/Child'
 function AppRoutes() {
   return (
     <>
-    <BrowserRouter >
+    <BrowserRouter basename='/dashboard'>
     <Routes>
         <Route path="/" element={<Home />}/>
         <Route path='/Home' element={<Home/>}/>
